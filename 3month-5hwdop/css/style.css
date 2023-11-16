@@ -1,0 +1,49 @@
+body {
+    background-color: #1a1a1a; 
+}
+
+* {
+    padding: 5px;   
+    margin: 5px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 500px;   
+    height: 320px;             
+    margin-left: 25%;   
+    margin-top: 15%;    
+    background-color: #e0e0e0;  
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#col2 {
+    width: 120px;   
+    height: 120px;  
+    margin-top: 15px;   
+    background-color: #4caf50;          
+    transition: background-color 0.3s ease;     
+}
+
+
+
+.col:hover {
+    transform: scale(1.05);     
+}
+
+#col2:hover {
+    background-color: #45a049; 
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff5733;
+}
